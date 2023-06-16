@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_cli_weather",
+  "version": "1.0.0",
+  "description": "This is a CLI (Command Line Interface) built on node.js that allows users to enter text commands giving instructions to request weather information in a city.",
+  "preferGlobal": true,
+  "bin": {
+    "weather": "./bin/weather"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "keywords": [
+    "CLI",
+    "Apps"
+  ],
+  "author": "Willian de Caldas Leite",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^10.0.1",
+    "esm": "^3.2.25"
+  }
+}
